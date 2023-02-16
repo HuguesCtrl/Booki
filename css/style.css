@@ -119,3 +119,54 @@ input[type='submit'] {
     color: var(--color1);
     font-size: 0.8em;
 }
+
+/* Fin de la section search-filter */
+
+.list-hotel {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.top-hotel {
+    background-color: var(--color3);
+    padding: 30px;
+}
+
+.card {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    width: 33%;
+}
+
+.card img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card i {
+    color: var(--color3);
+}
+
+.popular,
+.top-hotel {
+    background-color: var(--color3);
+    border-radius: 25px;
+}
+
+.popular {
+    padding: 30px;
+}
+
+.popular-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-title span {
+    color: var(--color1);
+}
