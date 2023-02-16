@@ -126,6 +126,7 @@ input[type='submit'] {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
+    margin-top: 30px;
 }
 
 .list-hotel h2 {
@@ -281,4 +282,56 @@ input[type='submit'] {
 
 .card-horizontal-text .star {
     margin-top: 40px;
+}
+
+/* Fin de stylisation section hebergement et populaire */
+.list-activity {
+    background-color: var(--color3);
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.list-activity h2 {
+    margin-top: 0;
+}
+
+.grid-activity {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card-vertical {
+    background-color: #fff;
+    border-radius: 25px;
+    height: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.123);
+    transition: 0.5s ease all;
+}
+
+.card-vertical:hover {
+    transform: scale(0.95) rotate(6deg);
+}
+
+.card-vertical a {
+    padding: 0;
+}
+
+.card-vertical-img img {
+    width: 100%;
+    height: 350px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    border-radius: 25px 25px 0 0;
+}
+
+.class-vertical-text {
+    padding: 20px;
+    /* border-radius: 0 0 25px 25px; */
+}
+
+.class-vertical-text h3 {
+    margin: 0;
 }
