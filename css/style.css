@@ -16,6 +16,7 @@ body {
     font-family: 'Raleway', sans-serif;
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 1em;
 }
 
 /* Debut du Header */
@@ -50,3 +51,71 @@ nav a:hover {
 }
 
 /* Fin de stylisation du Header */
+section h1 {
+    font-size: 1.375em;
+}
+
+.search {
+    display: inline-flex;
+    border: 1px solid var(--color3);
+    border-radius: 12px;
+
+}
+
+.search>* {
+    padding: 10px;
+    border: none;
+}
+
+.icon-map {
+    background-color: var(--color3);
+    border-radius: 12px 0 0 12px;
+    padding: 10px 15px;
+
+}
+
+input[type='text'] {
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+input[type='submit'] {
+    background-color: var(--color1);
+    border-radius: 0 12px 12px 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.filter {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filter a {
+    border: 2px solid var(--color3);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.filter a:hover {
+    background-color: var(--color2);
+}
+
+.filter i {
+    padding-right: 5px;
+    color: var(--color1);
+}
+
+.fa-info {
+    border: 1px solid var(--color3);
+    border-radius: 50%;
+    padding: 0.5em 0.8em;
+    margin-right: 10px;
+    color: var(--color1);
+    font-size: 0.8em;
+}
