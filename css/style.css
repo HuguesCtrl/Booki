@@ -91,9 +91,9 @@ input[type='submit'] {
 
 .filter {
     display: flex;
-    width: 50%;
-    justify-content: space-around;
     align-items: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
     margin-top: 10px;
 }
 
@@ -361,7 +361,7 @@ input[type='submit'] {
 /* Fin de la stylisation de la section activité */
 footer {
     margin-top: 30px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     background-color: var(--color3);
     display: flex;
     -moz-column-gap: 150px;
@@ -388,3 +388,13 @@ footer a {
 }
 
 /* Fin de la partie desktop */
+
+@media screen and (max-width: 992px) {
+    body {
+        max-width: 90%;
+    }
+
+    .list-hotel {
+        grid-template-columns: 1fr;
+    }
+}
